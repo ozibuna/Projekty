@@ -1,0 +1,30 @@
+/*PRÓBA DODAĆ SWOJE CSS DO PRZYCISKÓW BO JA KTO WIE GDZIE TO W TYLE CSSACH*/
+
+.custom-logout-button {
+    background-color: #614f40;
+    color: white; /* Tekst w kolorze białym */
+    border: none; /* Usuń ramkę */
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    cursor: pointer; /* Zmień kursor na "rączkę" */
+    text-transform: uppercase; /* Tekst wielkimi literami */
+    /*font-size: 14px; /* Rozmiar czcionki */
+    font-family: inherit;
+    margin-top: 10px;
+    font-size: inherit;
+    line-height: inherit;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Lekki cień dla efektu 3D */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animacje */
+}
+
+.custom-logout-button:hover {
+    background-color: #d3bc8e;
+    transform: scale(1.03);
+}
+
+.custom-logout-button:active {
+    background-color: #614f40; /* Ciemniejszy brąz przy kliknięciu */
+    transform: scale(0.95); /* Lekka redukcja rozmiaru przy kliknięciu */
+}
+.user-name {
+    margin-left: 5px;  /* Dodanie przestrzeni po nazwie użytkownika */
+}

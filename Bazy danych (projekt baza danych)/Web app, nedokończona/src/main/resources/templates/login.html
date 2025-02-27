@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/login.css">
+
+    <link rel="stylesheet" href="style/user.css">
+    <link rel="stylesheet" id="elementor-frontend-css"
+          href="style/frontend.css" media="all">
+    <link rel="stylesheet" id="widget-image-css"
+          href="style/widget-image.css" media="all">
+    <link rel="stylesheet" id="swiper-css" href="style/swiper.css"
+          media="all">
+    <link rel="stylesheet" id="e-swiper-css" href="style/e-swiper.css"
+          media="all">
+    <link rel="stylesheet" id="widget-nav-menu-css"
+          href="style/widget-nav-menu.css" media="all">
+    <link rel="stylesheet" id="widget-menu-anchor-css"
+          href="style/widget-menu-anchor.css" media="all">
+    <link rel="stylesheet" id="widget-heading-css"
+          href="style/widget-heading.css" media="all">
+    <link rel="stylesheet" id="widget-icon-list-css"
+          href="style/widget-icon-list.css" media="all">
+    <link rel="stylesheet" id="widget-google_maps-css"
+          href="style/widget-google_maps.css" media="all">
+    <link rel="stylesheet" id="widget-social-icons-css"
+          href="style/widget-social-icons.css" media="all">
+    <link rel="stylesheet" id="e-apple-webkit-css"
+          href="style/apple-webkit.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+          href="style/elementor-icons.css" media="all">
+    <link rel="stylesheet" id="elementor-post-1519-css"
+          href="style/post-1519.css" media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css" href="style/all.css"
+          media="all">
+    <link rel="stylesheet" id="font-awesome-4-shim-css"
+          href="style/v4-shims.css" media="all">
+    <link rel="stylesheet" id="e-animation-fadeInLeft-css"
+          href="style/fadeInLeft.css" media="all">
+    <link rel="stylesheet" id="widget-slides-css"
+          href="style/widget-slides.css" media="all">
+    <link rel="stylesheet" id="widget-flip-box-css"
+          href="style/widget-flip-box.css" media="all">
+    <link rel="stylesheet" id="e-animation-fadeInDown-css"
+          href="style/fadeInDown.css" media="all">
+    <link rel="stylesheet" id="widget-posts-css"
+          href="style/widget-posts.css" media="all">
+    <link rel="stylesheet" id="e-animation-slideInRight-css"
+          href="style/slideInRight.css" media="all">
+    <link rel="stylesheet" id="widget-call-to-action-css"
+          href="style/widget-call-to-action.css" media="all">
+    <link rel="stylesheet" id="e-transitions-css"
+          href="style/transitions.css" media="all">
+    <link rel="stylesheet" id="e-animation-slideInLeft-css"
+          href="style/slideInLeft.css" media="all">
+    <link rel="stylesheet" id="elementor-post-28-css"
+          href="style/post-28.css" media="all">
+    <link rel="stylesheet" id="elementor-post-1195-css"
+          href="style/post-1195.css" media="all">
+    <link rel="stylesheet" id="elementor-post-2030-css"
+          href="style/post-2030.css" media="all">
+    <link rel="stylesheet" id="tablepress-default-css"
+          href="style/default.css" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css" href="style/css.css"
+          media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+          href="style/fontawesome.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+          href="style/solid.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+          href="style/regular.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+          href="style/brands.css" media="all">
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <title>Form login and password</title>
+</head>
+<body>
+
+<body itemtype="https://schema.org/WebPage" itemscope="itemscope"
+      class="home page-template-default page page-id-28 ast-desktop ast-page-builder-template ast-no-sidebar astra-4.0.2 group-blog ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-layout ast-sticky-header-shrink ast-inherit-site-logo-sticky elementor-default elementor-kit-1519 elementor-page elementor-page-28 astra-addon-4.8.9 e--ua-firefox ast-mouse-clicked"
+      style="" data-elementor-device-mode="desktop">
+
+<div class="hfeed site" id="page">
+    <div data-elementor-type="header" data-elementor-id="1195"
+         class="elementor elementor-1195 elementor-location-header"
+         data-elementor-post-type="elementor_library">
+        <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-5a20e67b elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                data-id="5a20e67b" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}"
+                style="width: 1519px; left: 0px;">
+            <div class="elementor-container elementor-column-gap-default">
+                <div
+                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c1070ab"
+                        data-id="c1070ab" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-cc1fa61 elementor-widget elementor-widget-image"
+                                data-id="cc1fa61" data-element_type="widget"
+                                data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img fetchpriority="high" src="img/pokoj_senior.png"
+                                     class="attachment-2048x2048 size-2048x2048 wp-image-2593"
+                                     alt="" srcset="img/pokoj_senior.png"
+                                     sizes="(max-width: 1500px) 100vw, 1500px" width="1500"
+                                     height="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav
+                class="elementor-section elementor-top-section elementor-element elementor-element-fd08981 elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-sticky"
+                data-id="fd08981" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}"
+                style="">
+            <div class="elementor-container elementor-column-gap-no">
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-178879c"
+                        data-id="178879c" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-4eff7f4 elementor-nav-menu--stretch elementor-nav-menu__align-center elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+                                data-id="4eff7f4" data-element_type="widget"
+                                data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}"
+                                data-widget_type="nav-menu.default">
+                            <div class="elementor-widget-container">
+                                <nav aria-label="Menu"
+                                     class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
+                                    <ul id="menu-1-4eff7f4" class="elementor-nav-menu"
+                                        data-smartmenus-id="17360761112542566">
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-3352">
+                                            <a aria-current="page" class="elementor-item menu-link nav-link"
+                                               th:href="@{${#httpServletRequest.remoteUser != null && #httpServletRequest.isUserInRole('ADMIN')} ? '/main_admin' : '/main_user'}">
+                                                Main</a></li>
+                                        <li
+                                                class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-3352"><a
+                                                aria-current="page"
+                                                class="elementor-item menu-link nav-link" th:href="@{/index}">Home</a></li>
+                                        <li
+                                                class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-3352"><a
+                                                class="elementor-item menu-link nav-link">Galeria</a></li>
+
+                                    </ul>
+
+                                    <!-- Wylogowanie -->
+                                    <ul>
+                                        <!-- Jeśli użytkownik jest zalogowany -->
+                                        <li class="nav-item align-items-center" th:if="${#httpServletRequest.remoteUser}">
+                                            <a class="nav-link" style="color: white; margin-right: 10px;" aria-current="page">
+                                                You are logged in as <b class="user-name" style="text-transform: capitalize" th:text="${#httpServletRequest.remoteUser}"></b>
+                                            </a>
+                                            <form method="post" th:action="@{/index}">
+                                                <button class="custom-logout-button" type="submit" onclick="successfullyLogout()" value="Sign Out">Logout</button>
+                                            </form>
+
+                                        </li>
+                                        <!-- Jeśli użytkownik nie jest zalogowany -->
+                                        <li class="nav-item align-items-center" th:unless="${#httpServletRequest.remoteUser}">
+                                            <form method="post" th:action="@{/login}">
+                                                <button class="custom-logout-button" type="submit"  onclick="successfullyLogin()"value="Sign In">Login</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-043aeab"
+                        data-id="043aeab" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-background-overlay"></div>
+                        <div
+                                class="elementor-element elementor-element-3b84a2e elementor-widget elementor-widget-image"
+                                data-widget_type="image.default">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<main>
+<div class="wrapper">
+    <form method="post" th:action="@{/login}">
+        <h1>Login</h1>
+
+        <div class ="form-group">
+            <input id="login" type="text" placeholder="Username" autocomplete="off" class="form-control" name="username" required>
+            <i class='bx bx-user'></i>
+        </div>
+
+        <div class="form-group">
+            <input id="password" type="password" placeholder="Password" autocomplete="off" class="form-control" name="password" required>
+            <i class='bx bx-lock-alt' ></i>
+        </div>
+
+        <div th:if="${param.error}" style="color:red; margin-bottom:15px">
+            ERROR: Invalid username or password!
+        </div>
+
+        <button type="submit" class="btn" value = "Sign In">Login</button>
+    </form>
+</div>
+</main>
+
+    <!-- #content -->
+    <div data-elementor-type="footer" data-elementor-id="2030"
+         class="elementor elementor-2030 elementor-location-footer"
+         data-elementor-post-type="elementor_library">
+        <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-799fc8d6 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="799fc8d6" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-no"></div>
+        </section>
+        <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-522bee89 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="522bee89" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-567eac80"
+                        data-id="567eac80" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-272244e elementor-widget elementor-widget-menu-anchor"
+                                data-id="272244e" data-element_type="widget"
+                                data-widget_type="menu-anchor.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-menu-anchor" id="kontakt"></div>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-element elementor-element-b3ae34b elementor-widget elementor-widget-heading"
+                                data-id="b3ae34b" data-element_type="widget"
+                                data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h5 class="elementor-heading-title elementor-size-default">Główny adres</h5>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-element elementor-element-c149dce elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                data-id="c149dce" data-element_type="widget"
+                                data-widget_type="icon-list.default">
+                            <div class="elementor-widget-container">
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item"><a
+                                            href="tel:+48228312031"> <span
+                                            class="elementor-icon-list-icon"> <i
+                                            aria-hidden="true" class="fas fa-map-marker-alt"></i>
+											</span> <span class="elementor-icon-list-text">Dom Seniora Mikrusianów
+													<br> ul. Ludwika Waryńskiego 10 <br> 00-631
+													Warszawa
+											</span>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-element elementor-element-51447277 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                data-id="51447277" data-element_type="widget"
+                                data-widget_type="icon-list.default">
+                            <div class="elementor-widget-container">
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item"><a
+                                            href="tel:+48221234567"> <span
+                                            class="elementor-icon-list-icon"> <i
+                                            aria-hidden="true" class="fas fa-phone"></i>
+											</span> <span class="elementor-icon-list-text">tel. (22) 123
+													45 67</span>
+                                    </a></li>
+                                    <li class="elementor-icon-list-item"><a
+                                            href="dom.seniora@senior.pl"> <span
+                                            class="elementor-icon-list-icon"> <i
+                                            aria-hidden="true" class="far fa-envelope-open"></i>
+											</span> <span class="elementor-icon-list-text">dom.seniora@senior.pl</span>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-59df0710"
+                        data-id="59df0710" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-1fb04f7 elementor-widget elementor-widget-google_maps"
+                                data-id="1fb04f7" data-element_type="widget"
+                                data-widget_type="google_maps.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-custom-embed">
+                                    <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.531448687468!2d21.014107512407865!3d52.21556177186598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce7968c3551%3A0x2fe2cf0409ec0899!2sLudwika%20Wary%C5%84skiego%2010%2C%2000-530%20Warszawa!5e0!3m2!1sen!2spl!4v1736185598653!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+                                            title="Mikrusianie, Warszawa, ul. Ludwika Waryńskiego 10"
+                                            aria-label="Mikrusianie, Warszawa, ul. Ludwika Waryńskiego 10">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer
+                class="elementor-section elementor-top-section elementor-element elementor-element-60d85f5b elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                data-id="60d85f5b" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-54fc97eb"
+                        data-id="54fc97eb" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-22cf980c elementor-widget elementor-widget-heading"
+                                data-id="22cf980c" data-element_type="widget"
+                                data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">©
+                                    All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1e393709"
+                        data-id="1e393709" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                                class="elementor-element elementor-element-2ff813b2 e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+                                data-id="2ff813b2" data-element_type="widget"
+                                data-widget_type="social-icons.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-social-icons-wrapper elementor-grid">
+										<span class="elementor-grid-item"> <a
+                                                class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-0267196" href="https://www.facebook.com/dompilaszkow/"
+                                                target="_blank"> <span class="elementor-screen-only">Facebook-f</span>
+												<i class="fab fa-facebook-f"></i>
+										</a>
+										</span> <span class="elementor-grid-item"> <a
+                                        class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-dbaeb71" href="https://youtu.be/3gsld-Pbx9I?si=1fcaabBMCsdMuvAj"
+                                        target="_blank"> <span class="elementor-screen-only">Youtube</span>
+												<i class="fab fa-youtube"></i>
+										</a>
+										</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+    </body>
+</html>
