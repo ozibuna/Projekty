@@ -1,0 +1,8 @@
+Scale:5 5
+ColToPrint:|0|0|0|2|1|
+ColToPrint:|3|2|1|1|2|
+RowToPrint:|0|1|
+RowToPrint:|2|1|
+RowToPrint:|2|1|
+RowToPrint:|1|1|
+RowToPrint:|0|3|
