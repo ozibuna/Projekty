@@ -1,0 +1,205 @@
+:root{
+    --color1:#248f16;
+    --color2:#603312;
+}
+header, footer, section{
+    padding: 100px 0px;
+}
+header{
+    padding: 200px 0;
+}
+header, footer{
+    background: url(../img/fpattern.png),linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+    background-size: contain;
+    background-blend-mode: overlay;
+    
+    }
+
+    h1{
+        width: 100%;
+        background-color: transparent;
+        border: 2px solid rgb(255,255,255,.2);
+        backdrop-filter: blur(20px);
+        box-shadow:0 0 10px rgb(0,0,0,.2);
+        color: #fff;
+        border-radius: 10px;
+        padding: 30px 40px;
+       }
+
+.itd_play{
+    border: 2px solid rgb(255,255,255,.2);
+    border-radius: 10px;
+    background-color: var(--color2);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+
+.itd_play:hover{
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+
+.itd_triangle{
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width:10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+
+/* O stronie */
+.about{
+    background-color: #eee;
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd_circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:var(--color1);
+    margin: 15px auto 30px;
+}
+.bold-border{
+    border: 3px solid white;
+}
+
+/* Ciekawe fakty */
+.learning h5{
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+.larger-image {
+    width: 150%; 
+    height: auto; 
+}
+/* Footer */
+footer{
+    padding: 30px 0;
+}
+/* Color */
+.color1{
+    color: var(--color1)
+}
+
+.color2{
+    color: var(--color2)
+}
+
+.bg1{
+    background-color: var(--color1)
+}
+
+.bg2{
+    background-color: var(--color2)
+}
+
+
+
+body {
+    justify-content: center;
+    font-family:Arial, sans-serif;
+    padding: 0;
+}
+
+/* Moje kwiaty */
+.moje_kwiaty{
+    background-color: #eee;
+}
+.col-custom {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.flower-item {
+    margin: 1px; 
+}
+
+.flower-item img {
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .col-custom {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .col-custom {
+        width: 100%; 
+    }
+}
+/* Galeria */
+.gallery{
+    background-color: #eee;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gallery {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+/* Style dla modala */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
