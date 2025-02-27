@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <title>Menedzer Domow Seniora</title>
+</head>
+<body>
+
+<div align="center">
+    <!--  Page header  -->
+    <h1>Adresy</h1>
+
+    <!-- Entry to new page -->
+    <a href="/new_adres">Wprowadz nowy adres domu seniora</a>
+
+    <!--Break line-->
+    <br/><br/>
+
+    <!--Table-->
+    <table border = "1" cellpadding = "10">
+        <!--Table header-->
+        <thead>
+        <tr>
+            <th>Id_Adresu</th>
+            <th>Miasto</th>
+            <th>Ulica</th>
+            <th>Nr_Lokalu</th>
+            <th>Nr_Budynku</th>
+        </tr>
+        </thead>
+        <!--Table body-->
+        <tbody>
+        <tr th:each = "adres : ${listAdres}">
+            <td th:text="${adres.id_adresu}">Id_Adresu</td>
+            <td th:text="${adres.miasto">Miasto</td>
+            <td th:text="${adres.ulica}">Ulica</td>
+            <td th:text="${adres.nr_Lokalu}">Nr_Lokalu</td>
+            <td th:text="${adres.nr_Budynku}">Nr_Budynku</td>
+            <td>
+                <a th:href="@{'/edit_adres/'+${adres.id_adresu}}">Edit</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a th:href="@{'/delete_adres/' + ${adres.id_adresu}}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

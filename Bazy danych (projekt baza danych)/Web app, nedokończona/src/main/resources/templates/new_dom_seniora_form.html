@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+<title>Nowy Dom Seniora</title>
+</head>
+<body>
+
+	<div align="center">
+		<!--  Page header  -->
+		<h1>Wprowadz nowy dom seniora</h1>
+
+		<br />
+		<form action="#" th:action="@{/save}" th:object="${sale}"
+			method="post">
+			<!--Table-->
+			<table border="1" cellpadding="10">
+
+			</table>
+		</form>
+		<!-- Entry to new page -->
+		<a href="/new">Wprowadz nowy dom seniora</a>
+
+		<!--Table-->
+		<table border="1" cellpadding="10">
+			<!-- Table header -->
+			<thead>
+				<!--Table row-->
+				<tr>
+					<td>Id_Domu_Seniora</td>
+					<td><input type="text" th:field="*{id_Domu_Seniora}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Nazwa</td>
+					<td><input type="text" th:field="*{nazwa}"></td>
+				</tr>
+				<!--Second row-->
+				<tr>
+					<td>Data_Zalozenia</td>
+					<td><input type="text" th:field="*{data_Zalozenia}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Liczba_Pokoi</td>
+					<td><input type="text" th:field="*{liczba_Pokoi}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Max_Liczba_Mieszkancow</td>
+					<td><input type="text" th:field="*{max_Liczba_Mieszkancow}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Opis_Placowki</td>
+					<td><input type="text" th:field="*{opis_Placowki}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Czynny_Calodobowo</td>
+					<td><input type="text" th:field="*{czynny_Calodobowo}"></td>
+				</tr>
+				<!--Table row-->
+				<tr>
+					<td>Srednia_Cena_Mieszkania</td>
+					<td><input type="text" th:field="*{srednia_Cena_Mieszkania}"></td>
+				</tr>
+
+				<!-- Button save -->
+				<tr>
+					<td colspan="2"><button type="submit">Zapisz</button></td>
+				</tr>
+			</thead>
+		</table>
+	</div>
+
+</body>
+</html>
