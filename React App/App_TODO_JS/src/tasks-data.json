@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Zrobić zakupy",
+    "details": "Kupić pomidory, cebulę, kurczaka",
+    "deadline": "2025-03-31 19:30",
+    "status": "oczekujące",
+    "difficulty": 5
+  },
+  {
+    "id": "2",
+    "title": "Nauczyć się Reacta",
+    "details": "Przerobić dokumentację i zrobić projekt",
+    "deadline": "2025-04-05 18:00",
+    "status": "oczekujące",
+    "difficulty": 7
+  },
+  {
+    "id": "3",
+    "title": "Przygotować prezentację",
+    "details": "Prezentacja na spotkanie zespołu",
+    "deadline": "2025-03-25 09:00",
+    "status": "przeterminowane",
+    "difficulty": 6
+  },
+  {
+    "id": "4",
+    "title": "Zrobić trening",
+    "details": "Potanczyć z dziewczynami",
+    "deadline": "2025-03-22 17:00",
+    "status": "wykonane",
+    "difficulty": 8
+  }
+]

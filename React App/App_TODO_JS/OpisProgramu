@@ -1,0 +1,28 @@
+Napisany program to aplikacja do zarządzania listą zadań (TODO) stworzona w JavaScript. 
+Umożliwia organizowanie zadań oraz śledzenie ich statusu.
+
+Funkcjonalności:
+1. Aplikacja wczytuje listę zadań z pliku lub localStorage, 
+uwzględniając zadania wykonane, oczekujące i przeterminowane.
+
+2. Każde zadanie zawiera nazwę, opis, termin wykonania, 
+status (wykonane, oczekujące, przeterminowane) oraz ocenę trudności.
+
+3. Jeśli zadanie ma status „oczekujące”, 
+można je oznaczyć jako wykonane za pomocą przycisku.
+4. Wykonane zadanie można przywrócić do statusu „oczekujące” lub całkowicie usunąć.
+
+5. Zadania, których termin minął, można usunąć z listy.
+
+6. Zadania oczekujące można ocenić w skali od 1 do 10 gwiazdek.
+
+7. Użytkownik może ręcznie dodać zadanie na stronie, podając wszystkie szczegóły.
+
+8. Jeśli użytkownik doda zadanie z przeterminowanym terminem, 
+jego status natychmiast zostanie ustawiony na przeterminowane.
+
+9. Gdy nadchodzi termin zadania o statusie „oczekujące”, 
+aplikacja automatycznie zmienia jego status na „przeterminowane” (aktualizacja terminów co 0.1 minutę).
+
+10. Wszystkie zadania dodane na stronie są zapisywane w localStorage, 
+co pozwala na ich zachowanie nawet po odświeżeniu strony.
