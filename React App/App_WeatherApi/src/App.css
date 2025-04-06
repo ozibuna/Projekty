@@ -1,0 +1,100 @@
+.App {
+  text-align: left;
+  background: linear-gradient(135deg, #c0cdd9, #e7dd87);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  text-align: center;
+  background-color: rgba(40, 18, 120, 0.849);
+  padding: 20px;
+  border-radius: none;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.App-link {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+
+/* Button styling */
+.button {
+  background: #c8733a;;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 15px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #f47724;
+    transform: scale(1.09);
+}
+
+/* Navigation styling */
+.navbar {
+  background: rgba(1, 40, 55, 0.74);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 15px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background: #c8733a;
+  transform: scale(1.1);
+}
+
+/* Weather card */
+.weather-card {
+  border: 1px solid black;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 10px;
+}
+
+.weather-card h2 {
+  color: #333;
+}
+
+.weather-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-card li {
+  padding: 5px 0;
+  font-size: 18px;
+  color: #555;
+}
