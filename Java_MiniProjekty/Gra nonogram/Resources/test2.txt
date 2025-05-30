@@ -1,7 +1,0 @@
-Scale:5 5
-ColToPrint:|1|1|1|1|1|
-RowToPrint:|1|
-RowToPrint:|1|
-RowToPrint:|1|
-RowToPrint:|1|
-RowToPrint:|1|

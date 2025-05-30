@@ -1,9 +1,0 @@
-Scale:5 5
-ColToPrint:|1|0|0|0|0|
-ColToPrint:|1|3|0|1|1|
-ColToPrint:|1|1|4|1|2|
-RowToPrint:|2|1|
-RowToPrint:|2|1|
-RowToPrint:|0|4|
-RowToPrint:|1|1|
-RowToPrint:|3|1|
